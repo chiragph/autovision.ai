@@ -1,0 +1,10 @@
+{
+  "name": "AutoVision AI — Intelligent Car Recognition",
+  "description": "Intelligent car recognition web application powered by AI computer vision for vehicle detection, make & model classification, exterior color estimation, and bounding box localization.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

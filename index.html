@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoVision AI — Intelligent Car Recognition</title>
+    <meta name="description" content="Intelligent car recognition web application powered by AI computer vision for vehicle detection, make & model classification, exterior color estimation, and bounding box localization." />
+    <meta property="og:title" content="AutoVision AI — Intelligent Car Recognition" />
+    <meta property="og:description" content="Intelligent car recognition web application powered by AI computer vision for vehicle detection, make & model classification, exterior color estimation, and bounding box localization." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // HMR is disabled in AI Studio preview iframe. Ignore cosmetic WebSocket errors.
+      window.addEventListener('unhandledrejection', function (e) {
+        if (e.reason && (typeof e.reason === 'string' ? e.reason : e.reason.message || '').toLowerCase().includes('websocket')) {
+          e.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased font-sans selection:bg-cyan-500/20 selection:text-cyan-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
